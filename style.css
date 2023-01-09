@@ -1,0 +1,68 @@
+
+html {
+    color: navy;
+    background-color: lightgray;
+}
+
+header {
+    background-color: lightgray;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+}
+
+h1 {
+    width: 50%;
+    height: 150px;
+    margin-right: auto;
+    color: navy;
+    margin-top: 125px;
+    margin-left: 100px;
+    
+
+}
+
+.navlinks {
+  text-decoration: none;
+}
+
+.navlinks li {
+    color: whitesmoke;
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 50px;
+    background-color: navy;
+}
+
+.navlinks li:hover {
+    cursor: pointer;
+}
+
+#aboutMe {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+
+
+#andyPic {
+    height: 400px;
+    margin-right: 200px;
+}
+
+
+
+
+.skilllist {
+    list-style-type: none;
+    display: flex;
+}
+.skilllist img {
+    height: 75px;
+    display: inline-flex;
+    margin-right: 10px;
+}
