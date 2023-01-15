@@ -19,15 +19,14 @@ h1 {
     color: navy;
     margin-top: 125px;
     margin-left: 100px;
-    
-
 }
 
 .navlinks {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .navlinks li {
+    
     color: whitesmoke;
     display: inline-block;
     border: 1px solid whitesmoke;
@@ -37,9 +36,6 @@ h1 {
     background-color: navy;
 }
 
-.navlinks li:hover {
-    cursor: pointer;
-}
 
 #aboutMe {
 display: flex;
@@ -50,12 +46,10 @@ justify-content: flex-end;
 
 
 #andyPic {
-    height: 400px;
-    margin-right: 200px;
+    height: 500px;
+    margin-right: 300px;
+    width: 250px
 }
-
-
-
 
 .skilllist {
     list-style-type: none;
